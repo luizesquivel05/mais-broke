@@ -7,6 +7,7 @@
 .titulo-extrato {
     font-size: 25px; 
     text-align: left; 
+    margin-left: -5px;
     letter-spacing: 0px; 
     color: #000000; 
     opacity: 1;
@@ -15,6 +16,7 @@
 .tabela-transferencia-sombra {
     width: 1000px;
     height: 350px;
+    margin-left: -4px;
     background-color: #57575640;
 }
 
@@ -22,7 +24,7 @@
     width: 998px;
     height: 348px;
     margin-top: 1px;
-    margin-left: 1px;
+    margin-left: -4px;
     background-color: #fff;
 }
 
