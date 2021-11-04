@@ -1,0 +1,30 @@
+.perfil {
+    position: absolute;
+    margin-top: -890px;
+    margin-left: 220px;
+}
+
+.dadospessoais {
+    background-color: #FF5A00; 
+    color: #FFFFFF;
+    font-weight: normal; 
+    font-size: 15px; 
+    border: 1px;
+    width: 190px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.endereco {
+    background-color: #EDEDED;
+    font-weight: normal; 
+    font-size: 15px; 
+    border: 1px;
+    width: 190px;
+    height: 30px;
+    border-bottom-width: initial; 
+    border-bottom-style: solid; 
+    border-bottom-color: #000000;
+    margin-top: 20px;
+}

@@ -1,0 +1,51 @@
+.transferencias {
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 220px;
+}
+
+.titulo-extrato {
+    font-size: 25px; 
+    text-align: left; 
+    letter-spacing: 0px; 
+    color: #000000; 
+    opacity: 1;
+}
+
+.tabela-transferencia-sombra {
+    width: 1000px;
+    height: 350px;
+    background-color: #57575640;
+}
+
+.tabela-transferencia-interna {
+    width: 998px;
+    height: 348px;
+    margin-top: 1px;
+    margin-left: 1px;
+    background-color: #fff;
+}
+
+.atualizar {
+    border: 1px solid #282828; 
+    opacity: 1;
+}
+
+.filtro {
+    margin-left: 410px; 
+    margin-top: -30px;
+}
+
+.mudar-pagina {
+    margin-left: 880px;
+}
+
+.back {
+    background: #EDEDED 0% 0% no-repeat padding-box; 
+    opacity: 1;
+}
+
+.next {
+    background: #EDEDED 0% 0% no-repeat padding-box; 
+    opacity: 1;
+}

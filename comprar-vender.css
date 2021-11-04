@@ -1,0 +1,100 @@
+.comprar-vender {
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 220px;
+}
+
+
+.dadospessoais {
+    background-color: #FF5A00; 
+    color: #FFFFFF;
+    font-weight: normal; 
+    font-size: 15px; 
+    border: 1px;
+    width: 190px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.endereco {
+    background-color: #EDEDED;
+    color: #000000;
+    font-weight: normal; 
+    font-size: 15px; 
+    border: 1px;
+    width: 190px;
+    height: 30px;
+    border-bottom-width: initial; 
+    border-bottom-style: solid; 
+    border-bottom-color: #000000;
+    margin-top: 20px;
+}
+
+.dadosgerais {
+    height: auto;
+    width: 1000px;
+    background-color: #FFFFFF;
+    border-color: #EDEDED;
+}
+
+.valorreal {
+    display: inline;
+}
+
+.imagem-realbitcoin {
+    display: inline;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 500px;
+}
+
+.valorbitcoin {
+    display: inline;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 550px;
+}
+
+.precounitario {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 550px;
+}
+
+.botaocomprar {
+    border: 1px; 
+    font-size: 15px; 
+    text-align: center; 
+    width: 150px; 
+    margin-left: 820px; 
+    background-color: #FF5A00; 
+    color: #FFFFFF;
+}
+
+.ordem-compra {
+    display: inline-block;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-color: #EDEDED;
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.ordem-venda {
+    display: inline-block;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-color: #EDEDED;
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 505px;
+}
+
+.recentes {
+    margin-top: 450px;
+    background-color: #FFFFFF;
+    border-color: #EDEDED;
+}
