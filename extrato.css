@@ -1,7 +1,7 @@
 .transferencias {
     position: absolute;
     margin-top: -550px;
-    margin-left: 245px;
+    margin-left: 220px;
 }
 
 .titulo-extrato {
@@ -51,3 +51,11 @@
     background: #EDEDED 0% 0% no-repeat padding-box; 
     opacity: 1;
 }
+
+@media screen and (min-width: 2100px) {
+    .transferencias {
+        position: absolute;
+        margin-top: -550px;
+        margin-left: 255px;
+    }
+  } 

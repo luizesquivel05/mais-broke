@@ -1,7 +1,7 @@
 .perfil {
     position: absolute;
     margin-top: -890px;
-    margin-left: 245px;
+    margin-left: 220px;
 }
 
 .dadospessoais {
@@ -28,3 +28,11 @@
     border-bottom-color: #000000;
     margin-top: 20px;
 }
+
+@media screen and (min-width: 2100px) {
+    .perfil {
+        position: absolute;
+        margin-top: -890px;
+        margin-left: 245px;
+    }
+  } 

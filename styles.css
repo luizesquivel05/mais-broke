@@ -12,8 +12,9 @@ body{
   color: #FF5A00;
   font-weight: 600;
   background-color: #F6F6F6;
-  position: relative;
+  position: absolute;
   height: 100%;
+  width: 100%;
 }
 
 h3{
@@ -227,7 +228,6 @@ opacity: 1;
 
 .container-fluid-2 {
   margin-top: 0px !important;
-  margin-left: -15px !important;
   position: relative;
 }
 
@@ -411,3 +411,11 @@ color: #000000;
 .btn:hover{
   background-color:#282828;
 }
+
+@media screen and (min-width: 2100px) {
+  .container-fluid-2 {
+    margin-top: 0px !important;
+    margin-left: -85px !important;
+    position: relative;
+  }
+} 

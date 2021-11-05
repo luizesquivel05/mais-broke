@@ -1,7 +1,7 @@
 .comprar-vender {
     position: absolute;
     margin-top: -550px;
-    margin-left: 245px;
+    margin-left: 220px;
 }
 
 
@@ -98,3 +98,11 @@
     background-color: #FFFFFF;
     border-color: #EDEDED;
 }
+
+@media screen and (min-width: 2100px) {
+    .comprar-vender {
+        position: absolute;
+        margin-top: -550px;
+        margin-left: 245px;
+    }
+  } 
