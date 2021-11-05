@@ -11,7 +11,9 @@ body{
   font-family: 'Poppins';
   color: #FF5A00;
   font-weight: 600;
-  background-color: #F6F6F6
+  background-color: #F6F6F6;
+  position: relative;
+  height: 100%;
 }
 
 h3{
@@ -225,6 +227,7 @@ opacity: 1;
 
 .container-fluid-2 {
   margin-top: 0px !important;
+  margin-left: -15px !important;
   position: relative;
 }
 
