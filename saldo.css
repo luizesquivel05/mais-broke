@@ -1,11 +1,3 @@
-.saldos {
-    font-family:Poppins;
-    margin-top: -550px;
-    background-color: #F6F6F6;
-    margin-left: 250px !important;
-    width: 1100px;
-}
-  
 .texto-saldo {
     display: inline;
     margin-left: 0px;
@@ -26,14 +18,28 @@
     background-color:#282828;
     opacity: 1;
     font-size: 15px;
-    margin-left: 995px;
-    margin-top: -30px;
+    margin-left: 844px;
+    margin-top: -2px;
+}
+
+.botao-saldo2 {
+    position: absolute;
+    display: inline;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background-color:#282828;
+    opacity: 1;
+    font-size: 15px;
+    margin-left: 655px;
 }
 
 .tabelasaldo {
     position: relative;
     margin-top: 10px;
-    margin-left: 240px;
+    margin-left: 20px;
     width: 1000px;
     height: 500px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -42,18 +48,9 @@
 }
 
 .statussaldo {
-    margin-left: 410px;
+    margin-left: 0px;
     letter-spacing: 0px; 
     color: #000000; 
     opacity: 1;
 }
 
-@media screen and (min-width: 2100px) {
-    .saldos {
-        font-family:Poppins;
-        margin-top: -550px;
-        background-color: #F6F6F6;
-        margin-left: 250px !important;
-        width: 1100px;
-    }
-  } 
