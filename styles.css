@@ -81,16 +81,6 @@ h5{
   margin-bottom: 0 10%;
 }
 
-.card{
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 0px 4px #57575640;
-  opacity: 1;
-  border-radius: 10px;
-  margin: 0 10%;
-  margin-top: 0 10%;
-  margin-bottom: 0 10%;
-}
-
 .modal-header{
   background-color: #282828 !important;
 }
@@ -418,73 +408,77 @@ color: #000000;
     margin-left: -100px;
     position: absolute;
   }
-  .saldos {
-    font-family: Poppins;
-    margin-top: -525px;
-    background-color: #F6F6F6;
-    margin-left: 370px !important;
-    width: 1260px;
+
+  .navbar navsbar-expand-lg navbar-light bg-light {
+    width: 500px;
+    height: auto;
   }
-  .transferencias {
-    margin-top: -525px;
-    margin-left: 370px;
-  }
-  .extrato {
-    margin-top: -525px;
-    margin-left: 390px;
+
+  .principal {
+    margin-top: -515px !important;
+    margin-left: 355px !important;
   }
   .perfil {
-    position: absolute;
-    margin-top: -890px;
-    margin-left: 305px;
+    margin-top: -885px;
+    margin-left: 365px;
   }
-  .conta-verificar {
-    position: absolute;
-    margin-top: -825px;
-    margin-left: 375px;
+  .verificar-conta {
+    margin-top: -830px;
+    margin-left: 365px;
   }
-  .comprar-vender {
-    position: absolute;
-    margin-top: -550px;
-    margin-left: 370px;
-  }
-} 
-@media screen and (max-width: 1400px) {  
+}
+
+@media screen and (max-width: 1300px) {
   .container-fluid cardMenu ps-3 pe-0  {
     margin-top: 0px;
     margin-left: -100px;
     position: absolute;
   }
-  .saldos {
-    font-family: Poppins;
-    margin-top: -560px;
-    background-color: #F6F6F6;
-    margin-left: 200px !important;
-    width: 1260px;
+
+  .navbar navsbar-expand-lg navbar-light bg-light {
+    width: 500px;
+    height: auto;
   }
-  .transferencias {
-    margin-top: -605px;
-    margin-left: 210px;
-  }
-  .extrato {
-    margin-top: -600px;
-    margin-left: 210px;
+
+  .principal {
+    margin-top: -555px !important;
+    margin-left: 215px !important;
   }
   .perfil {
-    position: absolute;
-    margin-top: -980px;
-    margin-left: 210px;
+    margin-top: -950px;
+    margin-left: 220px;
   }
-  .conta-verificar {
-    position: absolute;
-    margin-top: -910px;
-    margin-left: 210px;
+  .verificar-conta {
+    margin-top: -880px;
+    margin-left: 225px;
   }
-  .comprar-vender {
+}
+
+@media screen and (max-width: 1400px) {  @media screen and (min-width: 1300px) {
+  .container-fluid cardMenu ps-3 pe-0  {
+    margin-top: 0px;
+    margin-left: -100px;
     position: absolute;
-    margin-top: -550px;
-    margin-left: 210px;
-  } 
+  }
+
+  .navbar navsbar-expand-lg navbar-light bg-light {
+    width: 500px;
+    height: auto;
+  }
+
+  .principal {
+    margin-top: -545px !important;
+    margin-left: 230px !important;
+  }
+  .perfil {
+    margin-top: -950px;
+    margin-left: 235px;
+  }
+  .verificar-conta {
+    margin-top: -870px;
+    margin-left: 233px;
+  }
+}
 }
 @media screen and (max-width: 1500px) { @media screen and (min-width: 1400px) {
   .container-fluid cardMenu ps-3 pe-0  {
@@ -492,35 +486,23 @@ color: #000000;
     margin-left: -100px;
     position: absolute;
   }
-  .saldos {
-    font-family: Poppins;
-    margin-top: -530px;
-    background-color: #F6F6F6;
-    margin-left: 260px !important;
-    width: 1260px;
+
+  .navbar navsbar-expand-lg navbar-light bg-light {
+    width: 500px;
+    height: auto;
   }
-  .transferencias {
-    margin-top: -530px;
-    margin-left: 255px;
-  }
-  .extrato {
-    margin-top: -530px;
-    margin-left: 260px;
+
+  .principal {
+    margin-top: -552px !important;
+    margin-left: 250px !important;
   }
   .perfil {
-    position: absolute;
-    margin-top: -890px;
-    margin-left: 305px;
+    margin-top: -960px;
+    margin-left: 248px;
   }
-  .conta-verificar {
-    position: absolute;
-    margin-top: -825px;
-    margin-left: 375px;
-  }
-  .comprar-vender {
-    position: absolute;
-    margin-top: -530px;
-    margin-left: 260px;
+  .verificar-conta {
+    margin-top: -880px;
+    margin-left: 250px;
   }
 }
 }
@@ -530,35 +512,23 @@ color: #000000;
     margin-left: -100px;
     position: absolute;
   }
-  .saldos {
-    font-family: Poppins;
-    margin-top: -530px;
-    background-color: #F6F6F6;
-    margin-left: 275px !important;
-    width: 1260px;
+
+  .navbar navsbar-expand-lg navbar-light bg-light {
+    width: 500px;
+    height: auto;
   }
-  .transferencias {
-    margin-top: -555px;
-    margin-left: 270px;
-  }
-  .extrato {
-    margin-top: -530px;
-    margin-left: 275px;
+
+  .principal {
+    margin-top: -525px !important;
+    margin-left: 270px !important;
   }
   .perfil {
-    position: absolute;
-    margin-top: -890px;
-    margin-left: 310px;
+    margin-top: -925px;
+    margin-left: 278px;
   }
-  .conta-verificar {
-    position: absolute;
-    margin-top: -825px;
-    margin-left: 380px;
-  }
-  .comprar-vender {
-    position: absolute;
-    margin-top: -530px;
-    margin-left: 275px;
+  .verificar-conta {
+    margin-top: -860px;
+    margin-left: 278px;
   }
 }
 }
@@ -568,35 +538,23 @@ color: #000000;
     margin-left: -100px;
     position: absolute;
   }
-  .saldos {
-    font-family: Poppins;
-    margin-top: -530px;
-    background-color: #F6F6F6;
-    margin-left: 290px !important;
-    width: 1260px;
+
+  .navbar navsbar-expand-lg navbar-light bg-light {
+    width: 500px;
+    height: auto;
   }
-  .transferencias {
-    margin-top: -565px;
-    margin-left: 280px;
-  }
-  .extrato {
-    margin-top: -530px;
-    margin-left: 290px;
+
+  .principal {
+    margin-top: -523px !important;
+    margin-left: 285px !important;
   }
   .perfil {
-    position: absolute;
-    margin-top: -890px;
-    margin-left: 315px;
+    margin-top: -910px;
+    margin-left: 280px;
   }
-  .conta-verificar {
-    position: absolute;
-    margin-top: -825px;
-    margin-left: 385px;
-  }
-  .comprar-vender {
-    position: absolute;
-    margin-top: -530px;
-    margin-left: 290px;
+  .verificar-conta {
+    margin-top: -835px;
+    margin-left: 288px;
   }
 }
 }
@@ -606,35 +564,23 @@ color: #000000;
     margin-left: -100px;
     position: absolute;
   }
-  .saldos {
-    font-family: Poppins;
-    margin-top: -530px;
-    background-color: #F6F6F6;
-    margin-left: 300px !important;
-    width: 1260px;
+
+  .navbar navsbar-expand-lg navbar-light bg-light {
+    width: 500px;
+    height: auto;
   }
-  .transferencias {
-    margin-top: -565px;
-    margin-left: 290px;
-  }
-  .extrato {
-    margin-top: -530px;
-    margin-left: 300px;
+
+  .principal {
+    margin-top: -525px !important;
+    margin-left: 298px !important;
   }
   .perfil {
-    position: absolute;
-    margin-top: -890px;
-    margin-left: 315px;
+    margin-top: -910px;
+    margin-left: 305px;
   }
-  .conta-verificar {
-    position: absolute;
-    margin-top: -825px;
-    margin-left: 385px;
-  }
-  .comprar-vender {
-    position: absolute;
-    margin-top: -530px;
-    margin-left: 300px;
+  .verificar-conta {
+    margin-top: -840px;
+    margin-left: 305px;
   }
 }
 }
@@ -644,35 +590,23 @@ color: #000000;
     margin-left: -100px;
     position: absolute;
   }
-  .saldos {
-    font-family: Poppins;
-    margin-top: -530px;
-    background-color: #F6F6F6;
-    margin-left: 315px !important;
-    width: 1260px;
+
+  .navbar navsbar-expand-lg navbar-light bg-light {
+    width: 500px;
+    height: auto;
   }
-  .transferencias {
-    margin-top: -565px;
-    margin-left: 305px;
-  }
-  .extrato {
-    margin-top: -530px;
-    margin-left: 315px;
+
+  .principal {
+    margin-top: -520px !important;
+    margin-left: 325px !important;
   }
   .perfil {
-    position: absolute;
-    margin-top: -890px;
-    margin-left: 330px;
+    margin-top: -905px;
+    margin-left: 325px;
   }
-  .conta-verificar {
-    position: absolute;
-    margin-top: -825px;
-    margin-left: 400px;
-  }
-  .comprar-vender {
-    position: absolute;
-    margin-top: -530px;
-    margin-left: 315px;
+  .verificar-conta {
+    margin-top: -830px;
+    margin-left: 325px;
   }
 }
 }
@@ -682,34 +616,22 @@ color: #000000;
     margin-left: -100px;
     position: absolute;
   }
-  .saldos {
-    font-family: Poppins;
-    margin-top: -530px;
-    background-color: #F6F6F6;
+
+  .navbar navsbar-expand-lg navbar-light bg-light {
+    width: 500px;
+    height: auto;
+  }
+
+  .principal {
+    margin-top: -520px !important;
     margin-left: 335px !important;
-    width: 1260px;
-  }
-  .transferencias {
-    margin-top: -565px;
-    margin-left: 315px;
-  }
-  .extrato {
-    margin-top: -530px;
-    margin-left: 335px;
   }
   .perfil {
-    position: absolute;
-    margin-top: -890px;
-    margin-left: 350px;
+    margin-top: -900px;
+    margin-left: 335px;
   }
-  .conta-verificar {
-    position: absolute;
-    margin-top: -825px;
-    margin-left: 420px;
-  }
-  .comprar-vender {
-    position: absolute;
-    margin-top: -530px;
+  .verificar-conta {
+    margin-top: -835px;
     margin-left: 335px;
   }
 }
@@ -720,35 +642,23 @@ color: #000000;
     margin-left: -100px;
     position: absolute;
   }
-  .saldos {
-    font-family: Poppins;
-    margin-top: -530px;
-    background-color: #F6F6F6;
-    margin-left: 350px !important;
-    width: 1260px;
+
+  .navbar navsbar-expand-lg navbar-light bg-light {
+    width: 500px;
+    height: auto;
   }
-  .transferencias {
-    margin-top: -565px;
-    margin-left: 340px;
-  }
-  .extrato {
-    margin-top: -530px;
-    margin-left: 350px;
+
+  .principal {
+    margin-top: -520px !important;
+    margin-left: 355px !important;
   }
   .perfil {
-    position: absolute;
-    margin-top: -890px;
-    margin-left: 365px;
+    margin-top: -895px;
+    margin-left: 355px;
   }
-  .conta-verificar {
-    position: absolute;
-    margin-top: -825px;
-    margin-left: 435px;
-  }
-  .comprar-vender {
-    position: absolute;
-    margin-top: -530px;
-    margin-left: 350px;
+  .verificar-conta {
+    margin-top: -830px;
+    margin-left: 355px;
   }
 }
 } 
